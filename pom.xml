@@ -13,6 +13,7 @@
         <module>creational/singleton</module>
         <module>behavioral</module>
         <module>structural</module>
+        <module>creational/abstract-factory</module>
     </modules>
 
     <dependencies>
