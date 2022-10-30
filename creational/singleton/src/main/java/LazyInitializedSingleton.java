@@ -1,4 +1,6 @@
-//懒汉式单例，线程安全，效率很低
+/**
+ * 懒汉式单例，线程安全，效率很低
+ */
 public class LazyInitializedSingleton {
 
     private static LazyInitializedSingleton instance;

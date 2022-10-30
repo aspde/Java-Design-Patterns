@@ -1,4 +1,6 @@
-//静态内部类，线程安全
+/**
+ * 静态内部类，线程安全
+ */
 public class StaticInnerClassSingleton {
 
     private StaticInnerClassSingleton(){};

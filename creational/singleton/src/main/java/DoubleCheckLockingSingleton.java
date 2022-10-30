@@ -1,4 +1,6 @@
-//双重校验锁，线程安全，效率高
+/**
+ * 双重校验锁，线程安全，效率高
+ */
 public class DoubleCheckLockingSingleton {
 
     //禁止指令重排序

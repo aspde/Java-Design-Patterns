@@ -1,4 +1,6 @@
-//饿汉式单例，线程安全
+/**
+ * 饿汉式单例，线程安全
+ */
 public class EagerInitializedSingleton {
 
     private static final EagerInitializedSingleton instance = new EagerInitializedSingleton();
