@@ -1,3 +1,6 @@
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class App implements Runnable {
 
     private final Kingdom kingdom = new Kingdom();
@@ -9,17 +12,17 @@ public class App implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("elf kingdom");
+        log.info("elf kingdom");
         createKingdom(Kingdom.FactoryMaker.KingdomType.ELF);
-        System.out.println(kingdom.getArmy().getDescription());
-        System.out.println(kingdom.getCastle().getDescription());
-        System.out.println(kingdom.getKing().getDescription());
+        log.info(kingdom.getArmy().getDescription());
+        log.info(kingdom.getCastle().getDescription());
+        log.info(kingdom.getKing().getDescription());
 
-        System.out.println("orc kingdom");
+        log.info("orc kingdom");
         createKingdom(Kingdom.FactoryMaker.KingdomType.ORC);
-        System.out.println(kingdom.getArmy().getDescription());
-        System.out.println(kingdom.getCastle().getDescription());
-        System.out.println(kingdom.getKing().getDescription());
+        log.info(kingdom.getArmy().getDescription());
+        log.info(kingdom.getCastle().getDescription());
+        log.info(kingdom.getKing().getDescription());
     }
 
     public void createKingdom(final Kingdom.FactoryMaker.KingdomType kingdomType) {
