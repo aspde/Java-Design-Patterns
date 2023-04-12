@@ -5,6 +5,7 @@ public class LazyInitializedSingleton {
 
     private static LazyInitializedSingleton instance;
 
+    // 私有构造函数，以避免使用构造函数
     private LazyInitializedSingleton(){};
 
     public static synchronized LazyInitializedSingleton getInstance(){
