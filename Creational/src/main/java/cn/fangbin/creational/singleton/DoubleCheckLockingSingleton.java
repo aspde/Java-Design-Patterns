@@ -1,4 +1,4 @@
-package singleton;
+package cn.fangbin.creational.singleton;
 
 /**
  * 双重校验锁，线程安全，效率高

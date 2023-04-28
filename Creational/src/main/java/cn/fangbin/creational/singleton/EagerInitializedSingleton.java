@@ -1,4 +1,4 @@
-package singleton;
+package cn.fangbin.creational.singleton;
 
 /**
  * 饿汉式单例，线程安全

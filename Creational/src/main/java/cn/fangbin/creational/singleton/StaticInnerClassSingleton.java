@@ -1,4 +1,4 @@
-package singleton;
+package cn.fangbin.creational.singleton;
 
 /**
  * 静态内部类，线程安全
