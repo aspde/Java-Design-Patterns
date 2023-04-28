@@ -1,3 +1,5 @@
+package singleton;
+
 /**
  * 饿汉式单例，线程安全
  */

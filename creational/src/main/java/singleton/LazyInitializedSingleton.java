@@ -1,5 +1,7 @@
+package singleton;
+
 /**
- * 懒汉式单例，线程安全，效率很低
+ * 懒汉式单例，线程不安全
  */
 public class LazyInitializedSingleton {
 
@@ -8,7 +10,7 @@ public class LazyInitializedSingleton {
     // 私有构造函数，以避免使用构造函数
     private LazyInitializedSingleton(){};
 
-    public static synchronized LazyInitializedSingleton getInstance(){
+    public static LazyInitializedSingleton getInstance(){
         if(instance == null){
             instance = new LazyInitializedSingleton();
         }
