@@ -24,7 +24,7 @@ public class App implements Runnable {
         LOGGER.info(kingdom.getCastle().getDescription());
         LOGGER.info(kingdom.getKing().getDescription());
 
-        LOGGER.info("矮人王国");
+        LOGGER.info("兽人王国");
         createKingdom(Kingdom.FactoryMaker.KingdomType.ORC);
         LOGGER.info(kingdom.getArmy().getDescription());
         LOGGER.info(kingdom.getCastle().getDescription());

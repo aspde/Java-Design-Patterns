@@ -1,7 +1,7 @@
 package cn.fangbin.creational.abstract_factory;
 
 /**
- * 矮人王国工厂具体工厂
+ * 兽人王国工厂具体工厂
  */
 public class OrcKingdomFactory implements KingdomFactory {
 

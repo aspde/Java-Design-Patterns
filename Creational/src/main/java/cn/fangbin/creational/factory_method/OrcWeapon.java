@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
- * 矮人武器
+ * 兽人武器
  */
 @RequiredArgsConstructor
 @Getter
@@ -14,6 +14,6 @@ public class OrcWeapon implements Weapon {
 
     @Override
     public String toString() {
-        return "一个矮人" + weaponType;
+        return "一个兽人" + weaponType;
     }
 }

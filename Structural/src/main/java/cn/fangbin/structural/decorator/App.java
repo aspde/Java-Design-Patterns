@@ -11,13 +11,13 @@ public class App {
         Troll simpleTroll = new SimpleTroll();
         simpleTroll.attack();
         simpleTroll.fleeBattle();
-        LOGGER.info("普通巨魔力量: {}.\n", simpleTroll.getAttackPower());
+        LOGGER.info("普通巨魔力量: {}\n", simpleTroll.getAttackPower());
 
-        // 通过添加装饰器来改变普通巨魔的行为
+        // 通过添加装饰器增强普通巨魔
         LOGGER.info("一个拿着大棍子的巨魔走了过来");
         Troll clubbedTroll = new ClubbedTroll(simpleTroll);
         clubbedTroll.attack();
         clubbedTroll.fleeBattle();
-        LOGGER.info("大棍子巨魔力量: {}.\n", clubbedTroll.getAttackPower());
+        LOGGER.info("大棍子巨魔力量: {}\n", clubbedTroll.getAttackPower());
     }
 }

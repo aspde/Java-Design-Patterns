@@ -5,7 +5,7 @@ import java.util.EnumMap;
 import java.util.Map;
 
 /**
- * 矮人铁匠，用于创建新对象的具体子类
+ * 兽人铁匠，用于创建新对象的具体子类
  */
 public class OrcBlacksmith implements Blacksmith {
 
@@ -23,6 +23,6 @@ public class OrcBlacksmith implements Blacksmith {
 
     @Override
     public String toString() {
-        return "矮人铁匠";
+        return "兽人铁匠";
     }
 }
